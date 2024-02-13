@@ -27,4 +27,4 @@ jobs:
         python manage.py migrate
 
     - name: Start Django server
-      run: gunicorn studybud.wsgi
+      run: gunicorn django_sn.wsgi
