@@ -10,7 +10,7 @@ Welcome to StudyBud! This guide will walk you through the setup process to get S
 
 2. **Navigate to the project directory:**
     ```bash
-    cd studybud
+    cd django_sn
     
 3. **Create a virtual environment:**
     ```bash
