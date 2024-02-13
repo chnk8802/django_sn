@@ -1,12 +1,12 @@
-# 📚 StudyBud Setup Guide 🌟
+# 📚 django_sn Setup Guide 🌟
 
-Welcome to StudyBud! This guide will walk you through the setup process to get StudyBud up and running on your local machine.
+A Django project demonstrating routing, templating, models, forms, and authentication etc.
 
 ## Getting Started 🚀
 
 1. **Clone the repository:**
    ```bash
-   git clone <repo-url>
+   git clone https://github.com/chnk8802/django_sn.git
 
 2. **Navigate to the project directory:**
     ```bash
