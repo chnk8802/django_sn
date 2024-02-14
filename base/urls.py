@@ -1,5 +1,7 @@
+from django.conf import settings
 from django.urls import path
 from . import views
+from django.conf.urls.static import static
 
 urlpatterns = [
     path('login/', views.loginPage, name='login'),
@@ -15,4 +17,5 @@ urlpatterns = [
     path('update-user/', views.updateUser, name='update-user'),
     path('topics/', views.topicsPage, name='topics'),
     path('activity/', views.activityPage, name='activity'),
-]
+
+] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT) + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
